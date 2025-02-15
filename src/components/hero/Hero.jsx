@@ -1,13 +1,12 @@
 import Speech from "./Speech";
 import { motion } from "motion/react";
 import Shape from "./Shape";
-import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
 import { FaGithub, FaLinkedin, FaBehanceSquare } from "react-icons/fa";
 import heroImg from "../../assets/mazen.png";
 import { PiLinktreeLogoBold } from "react-icons/pi";
 import { SiCodewars } from "react-icons/si";
-import { Link } from "react-router";
+import { Canvas } from "@react-three/fiber";
 
 const awardVariants = {
   initial: {

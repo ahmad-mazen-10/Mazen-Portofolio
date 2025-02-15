@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unknown-property */
-import { useGLTF } from '@react-three/drei'
+
+import { useGLTF } from "@react-three/drei"
 
 export function MugModel(props) {
   const { nodes, materials } = useGLTF('/mugModel.glb')

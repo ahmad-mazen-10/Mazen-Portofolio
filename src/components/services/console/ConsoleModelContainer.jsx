@@ -1,7 +1,7 @@
-import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
 import { ConsoleModel } from "./ConsoleModel";
 import { OrbitControls, PerspectiveCamera, Stage } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
 
 const ConsoleModelContainer = () => {
   return (

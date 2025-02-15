@@ -1,4 +1,4 @@
-import { Sphere, MeshDistortMaterial } from "@react-three/drei";
+import { MeshDistortMaterial, Sphere } from "@react-three/drei";
 
 const Shape = () => {
   return (

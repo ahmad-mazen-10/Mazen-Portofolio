@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unknown-property */
+
 import { useGLTF } from "@react-three/drei";
 
 export function ComputerModel(props) {
